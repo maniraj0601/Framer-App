@@ -24,7 +24,7 @@ function Layout({
   useEffect(() => {
     window.scrollTo(0, 0);
     setisSearchOpen(false);
-  }, [router.route]);
+  }, [router?.route]);
 
   return (
     <motion.div className="layout">
